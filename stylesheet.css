@@ -1,0 +1,215 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*ここからcssを書いていきましょう*/
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url("photo/main.jpg");
+  background-size: cover;
+  color: white;
+  text-align: left;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.container1 {
+  width: 40%;
+  margin-right: 0 auto;
+  background-color: #339900;
+  margin-left: 100px;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 15px;
+}
+
+.signup {
+  background-color: #239b76;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #blue;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #339900;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  height: 65px;
+  display: inline-block;
+  float: left;
+  padding-right: 15px;
+}
+
+.header-left {
+  float: left;
+  width: 50%;
+}
+
+.header-left li {
+  color: white;
+  float: left;
+  display: inline-block;
+  margin: 33px 20px 0 20px;
+  border-bottom: 1px solid white;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+.lesson-wrapper {
+  height: 750px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+  margin-bottom: 50px;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+.lesson-icon img {
+  height: 60%;
+  width: 90%;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 88%;
+  width: 90%;
+  line-height: 45px;
+  color: white;
+  background-color: #339900;
+  margin-left: 14px;
+  font-weight: 800;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #b3aeb5;
+}
+
+.heading h2 {
+  font-weight: bold;
+  background: linear-gradient(transparent 50%, #339900)
+}
+
+
+.message-wrapper {
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+
+footer {
+  height: 65px;
+  width: 100%;
+  background-color: #339900;
+}
+.footer-left {
+  padding-left: 100px;
+}
+
+.footer-left li {
+  float: left;
+  display: inline-block;
+  margin: 33px 20px 0px 20px;
+  border-bottom: 1px solid white;
+  color: white;
+
+}
+.footer-logo {
+  float: right;
+  margin: 20px 5px 0 0;
+}
